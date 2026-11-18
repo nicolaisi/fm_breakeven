@@ -1,0 +1,30 @@
+# Include base requirements
+-r requirements.txt
+
+# PyTorch (adjust CUDA version as needed)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# HuggingFace
+transformers>=4.35.0
+accelerate>=0.34,<2
+safetensors>=0.4.0
+
+# Foundation model packages
+# Chronos (Amazon)
+chronos-forecasting>=1.0.0
+
+# AutoGluon: not imported by any script; very heavy and pins torch/gluonts.
+# autogluon.timeseries>=1.0.0
+
+# GluonTS (required by some models)
+gluonts>=0.14.0
+
+# Moirai / Uni2TS
+uni2ts>=1.0.0
+
+# LoRA for efficient fine-tuning
+peft>=0.6.0
+
+# Optional: faster inference
+# onnxruntime-gpu>=1.16.0

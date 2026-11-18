@@ -1,0 +1,84 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Data files (large, regeneratable)
+data/*.csv
+data/*.txt
+data/*.parquet
+data/*.tsf
+data/*.zip
+
+# Results (can be regenerated)
+results/*.csv
+results/*.json
+
+# Figures (can be regenerated)
+figures/*.png
+figures/*.pdf
+figures/*.svg
+
+# Keep directories
+!data/.gitkeep
+!results/.gitkeep
+!figures/.gitkeep
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Model checkpoints (large)
+*.pt
+*.pth
+*.ckpt
+checkpoints/
+
+# HuggingFace cache
+.cache/
+
+# Paper source (not for public repo)
+tex/
+
+# Paper source, talk slides (kept locally, not in the public repo)
+icdm_workshop_final/
+slides/
+ppt/

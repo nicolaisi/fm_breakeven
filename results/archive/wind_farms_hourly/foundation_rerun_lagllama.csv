@@ -1,0 +1,4 @@
+dataset,model,setting,train_fraction,n_train,seed,mase,mae,n_windows,duration_s
+Wind-Farms,Lag-Llama,zero-shot,1.0,316224,0,0.8661323292528701,0.0571785889109015,5,0.205
+Wind-Farms,Lag-Llama,zero-shot,1.0,316224,1,0.8752656965940708,0.057781537258327,5,0.193
+Wind-Farms,Lag-Llama,zero-shot,1.0,316224,2,0.8479537655993782,0.0559785129143961,5,0.193
